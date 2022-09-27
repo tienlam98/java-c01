@@ -52,11 +52,11 @@
 // console.log("Số đảo bạn muốn tìm là:", a,b,c,d,e);
 
 // BAI7
-let x = prompt("Nhập số giây");
-let gio = Math.floor(x/3600);
-let phut = Math.floor((x-(gio*3600))/60);
-let giay = x-(gio*3600)-(phut*60);
-console.log(gio, "Giờ", phut, "Phút", giay, "Giây");
+// let x = prompt("Nhập số giây");
+// let gio = Math.floor(x/3600);
+// let phut = Math.floor((x-(gio*3600))/60);
+// let giay = x-(gio*3600)-(phut*60);
+// console.log(gio + ":" + phut + ":"+ giay);
 
 
 // BAI8
@@ -66,6 +66,16 @@ console.log(gio, "Giờ", phut, "Phút", giay, "Giây");
 // let d = prompt("Nhập toạ độ y điểm B:");
 // let kc = Math.sqrt((c-a)*(c-a)+(d-b)*(d-b));
 // console.log("Khoảng cách 2 điểm A và B là", kc);
+
+// BAI9
+let a = prompt("Nhập số a:");
+let b = prompt("Nhập số b");
+let c = a;
+a = b;
+b = c;
+console.log("Hoán vị của a là", a);
+console.log("Hoán vị của b là", b);
+
 
 // BAI10
 // let x = prompt("Nhập giá trị cho x:");
